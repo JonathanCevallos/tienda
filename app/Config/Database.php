@@ -45,6 +45,7 @@ class Database extends Config
         'numberNative' => false,
     ];
 
+
     /**
      * This database connection is used when
      * running PHPUnit database tests.
