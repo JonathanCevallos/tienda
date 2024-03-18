@@ -22,28 +22,28 @@ header("Cache-Control: no-cache, must-revalidate");
     <link href="<?= base_url(); ?>assets/css/sb-admin-2.css" rel="stylesheet">
     <link href="<?= base_url(); ?>assets/css/icon.css" rel="stylesheet">
     <link href="<?= base_url(); ?>assets/c/icono.png" rel="icon">
-    
+
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
 
      <link href="<?= base_url(); ?>assets/css/signin.css" rel="stylesheet">
-   
+
 
 </head>
 
 <body class="text-center">
-    
+
     <form class="form-signin"  method="post" action="<?= base_url('login') ?>">
       <img class="mb-4" src="assets/imgs/logotienda.png" alt="" width="200" height="200">
-      <h1 class="h3 mb-3 font-weight-normal"><b>Autenticación</b></h1>
+      <h1 class="h3 mb-3 font-weight-normal"><b>Autenticación TIENDA - Elastic Beanstalk - Code Pipeline</b></h1>
       <?php if (isset($validation)) : ?>
             <div class="mb-3">
                <div class="alert alert-danger" role="alert">
-                   
-                    <?php 
+
+                    <?php
                     $errors= $validation->getErrors();
                     foreach ($errors as $error): ?>
                         <?=esc($error)?><br/>
-                    <?php endforeach ?>  
+                    <?php endforeach ?>
                 </div>
             </div>
       <?php endif; ?>
@@ -58,17 +58,17 @@ header("Cache-Control: no-cache, must-revalidate");
       <div class="row">
         <div class="col">
           <a  href="<?=base_url()?>" class="btn w-100  btn-secondary"><b>
-          <i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Cancelar</b></a> 
+          <i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Cancelar</b></a>
         </div>
         <div class="col">
           <button class="btn w-100  btn-primary " type="submit">
               <b><i class="fa fa-sign-in" aria-hidden="true"></i> Ingresar</b></button>
         </div>
-       
+
       </div>
-      
+
       <p class="mt-5 mb-3 text-muted">&copy; 2024</p> </form>
-  
+
 
 
 
@@ -78,10 +78,10 @@ header("Cache-Control: no-cache, must-revalidate");
     <!-- Core plugin JavaScript-->
     <script src="<?= base_url(); ?>assets/vendor/jquery.easing/jquery.easing.min.js"></script>
 
-   
+
     <script type="text/javascript">
-       
-       
+
+
     </script>
 
 </body>
