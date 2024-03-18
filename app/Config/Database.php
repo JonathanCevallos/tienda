@@ -36,7 +36,7 @@ class Database extends Config
         'DBDebug'      => true,
         'charset'      => 'utf8',
         'DBCollat'     => 'utf8_general_ci',
-        'swapPre'      => '',
+        'swapPre'      => '', 
         'encrypt'      => false,
         'compress'     => false,
         'strictOn'     => false,
