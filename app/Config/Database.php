@@ -26,7 +26,7 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => '44.217.100.225',
+        'hostname'     => 'localhost',
         'username'     => 'admin',
         'password'     => '12345678',
         'database'     => 'tienda',
@@ -36,7 +36,7 @@ class Database extends Config
         'DBDebug'      => true,
         'charset'      => 'utf8',
         'DBCollat'     => 'utf8_general_ci',
-        'swapPre'      => '', 
+        'swapPre'      => '',
         'encrypt'      => false,
         'compress'     => false,
         'strictOn'     => false,
