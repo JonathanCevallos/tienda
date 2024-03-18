@@ -19,7 +19,7 @@ class App extends BaseConfig
     public string $baseURL = 'http://ec2-44-217-100-225.compute-1.amazonaws.com/';
 
     /**
-     * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
+     * Allowed Hostnames in the Site URL other thagn the hostname in the baseURL.
      * If you want to accept multiple Hostnames, set this.
      *
      * E.g. When your site URL ($baseURL) is 'http://example.com/', and your site
